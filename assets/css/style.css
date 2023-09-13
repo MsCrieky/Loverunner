@@ -205,7 +205,7 @@ main {
     background-position: 75%;
     padding: 20px 10% 10%;
     flex-grow: 1;
-    }
+}
 
 form h2 {
     color: #fafafa;
@@ -304,6 +304,12 @@ form h2 {
         margin-top: 79px;
     }
 
+    /* Hero image */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
     #benefits-physical,
     #benefits-mental {
         display: flex;
@@ -325,13 +331,27 @@ form h2 {
         column-count: 3;
     }
 
-}
+    /* Singup Page */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
 
-/* Hero image */
-#cover-text {
-    width: 300px;
-    right: 50px;
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
 
+    #text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -339,7 +359,7 @@ form h2 {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-    
+
     #photos {
         column-count: 4;
     }
